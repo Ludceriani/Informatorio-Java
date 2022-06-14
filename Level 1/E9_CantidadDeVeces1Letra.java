@@ -12,10 +12,7 @@ public class E9_CantidadDeVeces1Letra {
         int canti = numeroDeCaracteres(texto, caracter);        
         System.out.println("El texto o frase: '" + texto + "' contiene: " + canti + " letras " + caracter);
         scan.close();
-
-
-    }
-    
+    }    
     public static int numeroDeCaracteres(String texto, char caracter) {
         int posicion = 0;
         int contador = 0;
@@ -25,9 +22,5 @@ public class E9_CantidadDeVeces1Letra {
             posicion = texto.indexOf(caracter, posicion + 1);
         }
         return contador;
-
     }
-    
-
-
 }

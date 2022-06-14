@@ -12,7 +12,6 @@ public class E3_BarajaFrancesa {
      */
 
     public static void main(String[] args) {
-
         ArrayList<String> valorBaraja = new ArrayList<>();
         for (int i = 1; i < 13; i++) {
             valorBaraja.add(String.format("%s", i));

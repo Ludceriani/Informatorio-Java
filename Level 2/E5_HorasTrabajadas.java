@@ -2,10 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class E5_HorasTrabajadas {
-
     /**Dados 2 ArrayList que contienen horas-trabajadas (array1) y valor-por-hora(array2) del resumen de carga de horas semanal de un empleado. Se debe generar otra lista que contenga los totales y luego imprimir el total final a cobrar.
      */
-
     public static void main(String[] args) {
         ArrayList<Integer> horasTrabajadas = new ArrayList<Integer>();
         ArrayList<Integer> valorXhora = new ArrayList<Integer>();        
@@ -20,14 +18,11 @@ public class E5_HorasTrabajadas {
             totalSemanal.add(horasTrabajadas.get(i) * valorXhora.get(i));
             resultado += totalSemanal.get(i);
         }                
-
         System.out.println(horasTrabajadas);
         System.out.println(valorXhora);
         System.out.println(totalSemanal);
         System.out.println(resultado);
-
     }
-
     public static void listaHoras(List<Integer> horasTrabajadas) {
         horasTrabajadas.add(6);
         horasTrabajadas.add(7);
@@ -43,9 +38,6 @@ public class E5_HorasTrabajadas {
         valorXhora.add(600);
         valorXhora.add(320);
     }
-
-    
-
 }
 
 

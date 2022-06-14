@@ -1,14 +1,9 @@
 public class Empleado {
-
     private String nombre;
     private String apellido;
     private String dni;
     private int horasTrabajadas;
     private int valorPorHora;
-
-
-
-    
 
     public Empleado(String nombre, String apellido, String dni, int horasTrabajadas, int valorPorHora) {
         this.nombre = nombre;
@@ -47,9 +42,4 @@ public class Empleado {
     public void setValorPorHora(int valorPorHora) {
         this.valorPorHora = valorPorHora;
     }
-
-    
-
-
-    
 }

@@ -24,7 +24,6 @@ public class E6_EmpleadoSet {
         empleados.add(empleado2);
 
         Map<String, Integer> map = new HashMap<String, Integer>();
-
         
         for (Empleado obj : empleados) {
             int totalSueldo = obj.getValorPorHora() * obj.getHorasTrabajadas();
